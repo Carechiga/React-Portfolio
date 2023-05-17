@@ -5,13 +5,13 @@ main {
 }
 
 :root {
-	--primary: #499167;
-	--secondary: #2E282A;
+	--primary: #0a0a0a;
+	--secondary: #1c1975;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
 	--quinary: #bfd7ea;
 	--light: #bfd7ea;
-	--dark: #353831;
+	--dark: #0a0a0a;
 	--darker: #39a9db;
 	--error: rgb(228, 46, 1);
 	--spacing-one: calc(1rem * 0.5);
@@ -166,8 +166,8 @@ ul li {
 	list-style: none;
 }
 
-nav a:hover {
-	text-decoration: none;
+nav li span:hover {
+	color: black;
 }
 
 nav li {
@@ -293,10 +293,11 @@ textarea {
 .photo {
 	width: auto;
 	height: auto;
-	max-width: 480px;
+	max-width: 360px;
 	max-height: 640px;
 	/* padding: 50px; */
 	margin-bottom: 50px;
+	border-radius: 10px;
 }
 
 .image {
