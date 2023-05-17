@@ -15,7 +15,7 @@ function App() {
 
   const renderTab = () => { 
     //switch statement to handle logic for which tab to render
-    switch(currentTab) {
+    switch(selectedTab) {
       case "About":
         return <About />;
       case "Projects":
