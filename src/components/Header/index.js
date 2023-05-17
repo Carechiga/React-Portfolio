@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <h2> Chris Arechiga's Porfolio</h2>
+                <h2> Chris Arechiga's Portfolio</h2>
             </div>
             <div>
                 <Nav

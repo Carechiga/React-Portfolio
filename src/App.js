@@ -11,7 +11,7 @@ import Resume from "./components/Resume";
 
 function App() {
 
-  const [selectedTab, setSelectedTab] = useState("About-me")
+  const [selectedTab, setSelectedTab] = useState("About")
 
   const renderTab = () => { 
     //switch statement to handle logic for which tab to render
