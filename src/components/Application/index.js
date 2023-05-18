@@ -14,13 +14,14 @@ function Application(props) {
 
     //this handles the creation of the card for each application in the portfolio using above variables
     return (
-        <Card style={{ width: "20rem"}}>
+        <Card style={{ width: "35rem"}}>
             <Card.Img variant="top" src={require(`../../assets/images/${applicationImage}`)} className="card-image"/>
             <div className="center">
                 <Card.Body>
                     <Card.Title className="card-title">{applicationName}</Card.Title>
                     <Card.Text className="card-text">{applicationDescription}</Card.Text>
                     <Card.Link className="card-link" href={applicationRepo} target="_blank">{applicationName} Github Repository</Card.Link>
+                    <br></br>
                     <Card.Link className="card-link" href={applicationLink} target="_blank">{applicationName} Live Application/Demo</Card.Link>
                 </Card.Body>
             </div>

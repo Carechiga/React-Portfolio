@@ -61,16 +61,12 @@ function Projects() {
 					<li className="padding">
 						<Application projects={applicationArray[1]}></Application>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Application projects={applicationArray[2]}></Application>
 					</li>
 					<li className="padding">
 						<Application projects={applicationArray[3]}></Application>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Application projects={applicationArray[4]}></Application>
 					</li>
