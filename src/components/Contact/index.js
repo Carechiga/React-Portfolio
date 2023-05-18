@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef} from "react";
 import { validateEmail } from "../../utils/helpers"
+import emailjs from "@emailjs/browser";
 
+//creates content to be displayed on "Contact Page"
 function Contact() {
     const [formState, setFormState] = useState({
-        name: "",
-        email: "",
+        user_name: "",
+        user_email: "",
         message: "",
     });
 
-    const { name, email, message } = formState;
+    const { user_name, user_email, message } = formState;
     
     const [errorMessage, setErrorMessage] = useState("");
 
@@ -44,6 +46,30 @@ function Contact() {
 			setFormState({ ...formState, [e.target.name]: e.target.value });
 		}
 	}
+   
+    //this is from emailjs for email handling comes from emailjs documentation
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+    
+        emailjs
+          .sendForm(
+            "service_diy72li",
+            "template_n2coaqo",
+            form.current,
+            "YCgPkdw8Igf3lXFgu"
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+              setErrorMessage("message sent");
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
+      };
  
     return(
         // "onBlur" calls a function when the user leaves a field, in our case were checking to see if its blank
@@ -52,18 +78,18 @@ function Contact() {
                 <h1 className="page-header">Contact</h1>
             </div>
             <div className="center">
-                <form id="contact-form">
+                <form id="contact-form" ref={form} onSubmit={sendEmail}>
                     <div>
                         <label htmlFor="Name">Name: </label>
-                        <input type="text" defaultValue={name} name="Name" onBlur={handleBlank}></input>
+                        <input type="text" defaultValue={user_name} name="user_name" onBlur={handleBlank}></input>
                     </div>
                     <div>
                         <label htmlFor="Email">Email: </label>
-                        <input type="email" defaultValue={email} name="Email" onBlur={handleBlank}></input>
+                        <input type="email" defaultValue={user_email} name="user_email" onBlur={handleChange}></input>
                     </div>
                     <div>
                         <label htmlFor="Message">Message: </label>
-                        <textarea defaultValue={message} name="Message" onBlur={handleBlank}></textarea>
+                        <textarea defaultValue={message} name="message" onBlur={handleBlank}></textarea>
                     </div>
                     {errorMessage && (
 						<div>

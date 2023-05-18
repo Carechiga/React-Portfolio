@@ -1,6 +1,6 @@
 import React from "react";
 
-// creates the content to be displayed on the about "page"(component) is being rendered
+// creates the content to be displayed on the about "page"(component)
 function About() {
     return(
         <section>
