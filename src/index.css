@@ -377,6 +377,10 @@ textarea {
 .padding {
 	padding: 50px;
 }
+.error-text {
+	color: red;
+	font-size: 0.8rem;
+}
 
 /* Viewports Styling start*/
 @media screen and (max-width: 980px) {}
