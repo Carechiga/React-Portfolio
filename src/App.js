@@ -11,6 +11,7 @@ import Resume from "./components/Resume";
 
 function App() {
 
+  //tab/components when selected will decide whats rendered to the page. default page is "About"
   const [selectedTab, setSelectedTab] = useState("About")
 
   const renderTab = () => { 
@@ -24,14 +25,14 @@ function App() {
         return <Resume />;
       case "Contact":
         return <Contact />;
-      default: 
-        return null;
-    }
+      }
   }
+
+  //app will always render header and footer with associated props and have the main body be rendered by what tab is selected
   return (
     <div>
       <div>
-        <Header currentTab={selectedTab} setSelectedTab={setSelectedTab}></Header>
+        <Header selectedTab={selectedTab} setSelectedTab={setSelectedTab}></Header>
       </div>
       <div>
         <main>{renderTab()}</main>

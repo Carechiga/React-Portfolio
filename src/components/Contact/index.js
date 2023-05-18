@@ -15,7 +15,7 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState("");
 
     function handleChange(e) {
-		if (e.target.name === "email") {
+		if (e.target.name === "user_email") {
 			const isValid = validateEmail(e.target.value);
 			if (!isValid) {
 				setErrorMessage("Your email is invalid.");
@@ -34,9 +34,9 @@ function Contact() {
 	}
 
 	function handleBlank(e) {
-		if (e.target.name === "Name" || e.target.name === "Message") {
+		if (e.target.name === "user_name" || e.target.name === "message") {
 			if (!e.target.value.length) {
-				setErrorMessage(`${e.target.name} is required.`);
+				setErrorMessage(`${e.target.id} is required.`);
 			} else {
 				setErrorMessage("");
 			}
@@ -81,15 +81,15 @@ function Contact() {
                 <form id="contact-form" ref={form} onSubmit={sendEmail}>
                     <div>
                         <label htmlFor="Name">Name: </label>
-                        <input type="text" defaultValue={user_name} name="user_name" onBlur={handleBlank}></input>
+                        <input type="text" defaultValue={user_name} id="Name" name="user_name" onBlur={handleBlank}></input>
                     </div>
                     <div>
                         <label htmlFor="Email">Email: </label>
-                        <input type="email" defaultValue={user_email} name="user_email" onBlur={handleChange}></input>
+                        <input type="email" defaultValue={user_email} id="Email" name="user_email" onBlur={handleChange}></input>
                     </div>
                     <div>
                         <label htmlFor="Message">Message: </label>
-                        <textarea defaultValue={message} name="message" onBlur={handleBlank}></textarea>
+                        <textarea defaultValue={message} id="Message" name="message" onBlur={handleBlank}></textarea>
                     </div>
                     {errorMessage && (
 						<div>

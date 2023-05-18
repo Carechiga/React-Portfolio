@@ -12,7 +12,9 @@ function Header(props) {
             <div>
                 <Nav
                     selectedTab={selectedTab}
-                    setSelectedTab={setSelectedTab}></Nav>
+                    setSelectedTab={setSelectedTab}
+                    >
+                </Nav>
             </div>
         </header>
     );

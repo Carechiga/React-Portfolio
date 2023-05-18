@@ -1,5 +1,6 @@
 import React from "react";
 
+//target="_blank"/rel="noopener noreferrer" is used to open link in a separate tab
 function Footer() {
     return (
         <footer className="footer">
