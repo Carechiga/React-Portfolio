@@ -52,7 +52,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         
-    
+     if(message.length){
         emailjs
           .sendForm(
             "service_diy72li",
@@ -64,11 +64,17 @@ function Contact() {
             (result) => {
               console.log(result.text);
               setErrorMessage("message sent");
+              setFormState({
+                user_name: "",
+                user_email: "",
+                message: "",
+            })
             },
             (error) => {
               console.log(error.text);
             }
           );
+        }
       };
  
     return(
@@ -104,5 +110,6 @@ function Contact() {
         </section>
     )
 }
+
 
 export default Contact;

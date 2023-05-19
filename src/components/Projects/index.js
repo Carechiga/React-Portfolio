@@ -40,9 +40,9 @@ function Projects() {
             link: "https://carechiga.github.io/Easy-Recipe-App/",
         },
         {
-            name: "Secrue Password Generator",
+            name: "Secure Password Generator",
             image: "Password-Generator.png",
-            description: "Need to generate a secrue passowrd? Look no further this app has you covered, just enter your criteria and there you go!",
+            description: "Need to generate a secure passowrd? Look no further this app has you covered, just enter your criteria and there you go!",
             repo: "https://github.com/Carechiga/Week-Three-Challenge",
             link: "https://carechiga.github.io/Week-Three-Challenge/",
         },

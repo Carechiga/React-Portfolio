@@ -31,9 +31,13 @@ function Resume(){
                     <li>Node</li>
                     <li>MySQL</li>
                     <li>noSQL</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                   
+                </ol>
+                <h2 className="center" style={{paddingTop: "30px"}}>Other Skills</h2>
+                <ol>
+                    <li>Amazon S3 Buckets</li>
+                    <li>PureData</li>
+                                                      
                 </ol>
                 </div>
             </div>
