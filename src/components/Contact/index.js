@@ -50,32 +50,36 @@ function Contact() {
     //this is from emailjs for email handling comes from emailjs documentation
     const form = useRef();
     const sendEmail = (e) => {
-        e.preventDefault();
+
+    const validateForm = () => {
+    if(!user_name || !user_email || !message){
+          setErrorMessage("Missing Fields");
+    }else{
+      setErrorMessage("");
+    }
+    }
+
+     validateForm();
+     e.preventDefault();
         
-     if(message.length){
-        emailjs
-          .sendForm(
-            "service_diy72li",
-            "template_n2coaqo",
-            form.current,
-            "YCgPkdw8Igf3lXFgu"
-          )
-          .then(
-            (result) => {
-              console.log(result.text);
-              setErrorMessage("message sent");
-              setFormState({
-                user_name: "",
-                user_email: "",
-                message: "",
-            })
-            },
-            (error) => {
-              console.log(error.text);
-            }
-          );
-        }
-      };
+    if(!errorMessage){
+     emailjs
+        .sendForm(
+          "service_diy72li",
+          "template_n2coaqo",
+          form.current,
+          "YCgPkdw8Igf3lXFgu"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      }
+    };
  
     return(
         // "onBlur" calls a function when the user leaves a field, in our case were checking to see if its blank
