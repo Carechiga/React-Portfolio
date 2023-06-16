@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.bacd4f9c.css",
-    "main.js": "/React-Portfolio/static/js/main.6edda64e.js",
+    "main.js": "/React-Portfolio/static/js/main.9ffc7f0f.js",
     "static/media/Project-Perfect.png": "/React-Portfolio/static/media/Project-Perfect.e539afccc2f1b1d2109c.png",
     "static/media/Easy-Recipe.png": "/React-Portfolio/static/media/Easy-Recipe.9ac5412ec21e3b2bf08f.png",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5205e9fa8fde58587cf1.jpg",
+    "static/media/Arechiga-Resume-June23.pdf": "/React-Portfolio/static/media/Arechiga-Resume-June23.847a55a237efea819b1b.pdf",
+    "static/media/Perrine Bridge.jpeg": "/React-Portfolio/static/media/Perrine Bridge.db050c6c2cb7909ff860.jpeg",
     "static/media/Social-Network-API.png": "/React-Portfolio/static/media/Social-Network-API.7240123523ba7e0651e6.png",
     "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.5a41ea99646a3e9e3b59.png",
     "static/media/Password-Generator.png": "/React-Portfolio/static/media/Password-Generator.c4fa292abe284ef4aac5.png",
     "static/media/Spotify_icon.svg.png": "/React-Portfolio/static/media/Spotify_icon.svg.d1378ee74c58b3360afe.png",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.11ebb7a8513bb84d6cf2.png",
     "static/media/github-icon.png": "/React-Portfolio/static/media/github-icon.3fc5ead9ff318bda611c.png",
-    "static/media/Chris-Arechiga-Resume.docx": "/React-Portfolio/static/media/Chris-Arechiga-Resume.210622bbf7b11cdc7311.docx",
     "static/media/linkedin-icon.webp": "/React-Portfolio/static/media/linkedin-icon.b4cffa9e0211149140fb.webp",
     "static/media/youtube-icon.avif": "/React-Portfolio/static/media/youtube-icon.32da4890e2bc99f9d5d9.avif",
     "index.html": "/React-Portfolio/index.html",
     "main.bacd4f9c.css.map": "/React-Portfolio/static/css/main.bacd4f9c.css.map",
-    "main.6edda64e.js.map": "/React-Portfolio/static/js/main.6edda64e.js.map"
+    "main.9ffc7f0f.js.map": "/React-Portfolio/static/js/main.9ffc7f0f.js.map"
   },
   "entrypoints": [
     "static/css/main.bacd4f9c.css",
-    "static/js/main.6edda64e.js"
+    "static/js/main.9ffc7f0f.js"
   ]
 }
