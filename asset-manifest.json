@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.bacd4f9c.css",
-    "main.js": "/React-Portfolio/static/js/main.9ffc7f0f.js",
+    "main.js": "/React-Portfolio/static/js/main.53f43422.js",
     "static/media/Project-Perfect.png": "/React-Portfolio/static/media/Project-Perfect.e539afccc2f1b1d2109c.png",
     "static/media/Easy-Recipe.png": "/React-Portfolio/static/media/Easy-Recipe.9ac5412ec21e3b2bf08f.png",
     "static/media/Headshot.jpg": "/React-Portfolio/static/media/Headshot.5205e9fa8fde58587cf1.jpg",
-    "static/media/Arechiga-Resume-June23.pdf": "/React-Portfolio/static/media/Arechiga-Resume-June23.847a55a237efea819b1b.pdf",
+    "static/media/Arechiga-Resume-June23.pdf": "/React-Portfolio/static/media/Arechiga-Resume-June23.9d62b34783f5f5155c38.pdf",
     "static/media/Perrine Bridge.jpeg": "/React-Portfolio/static/media/Perrine Bridge.db050c6c2cb7909ff860.jpeg",
     "static/media/Social-Network-API.png": "/React-Portfolio/static/media/Social-Network-API.7240123523ba7e0651e6.png",
     "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.5a41ea99646a3e9e3b59.png",
@@ -17,10 +17,10 @@
     "static/media/youtube-icon.avif": "/React-Portfolio/static/media/youtube-icon.32da4890e2bc99f9d5d9.avif",
     "index.html": "/React-Portfolio/index.html",
     "main.bacd4f9c.css.map": "/React-Portfolio/static/css/main.bacd4f9c.css.map",
-    "main.9ffc7f0f.js.map": "/React-Portfolio/static/js/main.9ffc7f0f.js.map"
+    "main.53f43422.js.map": "/React-Portfolio/static/js/main.53f43422.js.map"
   },
   "entrypoints": [
     "static/css/main.bacd4f9c.css",
-    "static/js/main.9ffc7f0f.js"
+    "static/js/main.53f43422.js"
   ]
 }
