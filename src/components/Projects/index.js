@@ -19,11 +19,11 @@ function Projects() {
             link: "https://limitless-basin-31319.herokuapp.com/",
         },
         {
-            name: "Social Network API",
-            image: "Social-Network-API.png",
-            description: "This is a backend application demonstrating the CRUD operations for a noSQL database, it features mongooseDB",
-            repo: "https://github.com/Carechiga/Social-Network-API",
-            link: "https://www.youtube.com/watch?v=F25NKaXeTxs",
+            name: "ChariTeam Food Waste Donation Service",
+            image: "Chariteam.png",
+            description: "This is a FullStack React Application, designed to connect OC food providers to nearby foodbanks (educational)",
+            repo: "https://github.com/aubreyj11/donation-service",
+            link: "https://sleepy-plateau-67622.herokuapp.com/",
         },
         {
             name: "Weather Dashboard",
