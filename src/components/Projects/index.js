@@ -5,6 +5,13 @@ function Projects() {
     //this is the array of my featured applications 
     const applicationArray =[
         {
+            name: "ChariTeam Food Waste Donation Service",
+            image: "Chariteam.png",
+            description: "This is a FullStack React Application, designed to connect OC food providers to nearby foodbanks (educational)",
+            repo: "https://github.com/aubreyj11/donation-service",
+            link: "https://sleepy-plateau-67622.herokuapp.com/",
+        },
+        {
             name: "Project Perfect",
             image: "Project-Perfect.png",
             description: "Project Perfect is a career help application. Focused on Community interaction rather than job posting, this application is designed to have users post Resumes, Cvs, cover letters etc and get community feedback",
@@ -17,14 +24,7 @@ function Projects() {
             description: "Just another text editor is a simple text editor application. However, this application demonstrates the ability to take the apllication offline! Just click to install and you can use the app without connecting to the internet",
             repo: "https://github.com/Carechiga/PWA-Text-Editor",
             link: "https://limitless-basin-31319.herokuapp.com/",
-        },
-        {
-            name: "ChariTeam Food Waste Donation Service",
-            image: "Chariteam.png",
-            description: "This is a FullStack React Application, designed to connect OC food providers to nearby foodbanks (educational)",
-            repo: "https://github.com/aubreyj11/donation-service",
-            link: "https://sleepy-plateau-67622.herokuapp.com/",
-        },
+        },        
         {
             name: "Weather Dashboard",
             image: "Weather-Dashboard.png",
